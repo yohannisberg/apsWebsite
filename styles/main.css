@@ -1,0 +1,333 @@
+@font-face{
+  font-family: built-titling;
+  src: url(built-titling-rg.ttf);
+}
+
+@media screen and (max-width: 625px) {
+
+  ul li a {
+    text-decoration: none;
+    color:black;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+        }
+
+  .overlay {
+
+    background-color:gray;
+    opacity:.9;
+    position: absolute;
+    top:40px;
+    left:25px;
+    width: 100px;;
+    height:270px;
+    /*z-index: 1;*/
+  }
+
+  .drop-down {
+      position: absolute;
+      font-size: 35px;
+      top:120px;
+      left: 40px;
+      display: inline-block;
+      z-index: 2;
+    }
+
+    .drop-down li{
+      padding-bottom: 30px;
+      z-index: 3;
+
+    }
+
+  .header{
+    height: 120px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*justify-content: space-around;*/
+    background-color: white;
+    width: 100%;
+  }
+
+  .liveNew{
+    display: none;
+  }
+
+  .comingSoon{
+    display: none;
+  }
+
+  .menu a {
+    display: none;
+  }
+
+  .btn .menuBar{
+    position:absolute;
+    height: 50px;
+    top: 50px;
+    left: 40px;
+    /*margin-bottom: 10px;*/
+  }
+
+}
+
+@media screen and (max-width: 845px)
+  {
+
+  .liveNew{
+  position: absolute;
+  top:300px;
+  color:white;
+  font-size: 80px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .comingSoon{
+    background-color: rgba(255,0,0,0.3);
+    position: absolute;
+    top: 380px;
+    color:white;
+    font-size: 60px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+  }
+
+}
+
+@media screen and (min-width: 846px) {
+
+  .dropdown{
+    display:none;
+  }
+
+  .menuBar{
+    display: none;
+  }
+
+  .liveNew{
+  position: absolute;
+  top:380px;
+  color:white;
+  font-size: 120px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .comingSoon{
+    background-color: rgba(255,0,0,0.3);
+    position: absolute;
+    top: 500px;
+    color:white;
+    font-size: 60px;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow:
+        3px 3px 0 #000,
+      -1px -1px 0 #000,
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+  }
+
+}
+
+@media screen and (min-width: 625px) {
+
+  ul li a {
+    display: none;
+  }
+
+  .menuBar{
+    display: none;
+  }
+
+  .header{
+    height: 19\30px;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  background-color: white;
+  width: 100%;
+  }
+
+}
+
+.bandName{
+font-size: 100px;
+color:black;
+text-decoration:none;
+
+}
+
+li i{
+  font-family: arial;
+  font-size: 17px;
+  letter-spacing: -1px;
+
+}
+
+.container{
+  margin: auto;
+  width: 100%;
+  font-family: built-titling;
+  background-color: rgb(224, 224, 224);
+}
+
+.menu a {
+  font-size: 50px;
+  text-decoration:none;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.menuIcons{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.menuPics{
+  height:50px;
+  padding-left: 15px;
+}
+
+.onVideo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.fullscreen-bg {
+
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    /*position: absolute;*/
+
+    width: 100%;
+    height: 100%;
+}
+
+.colorBar{
+  position: relative;
+  margin-top: -50px;
+  opacity: 0.7;
+  width:100%;
+}
+
+.bottomPic{
+  margin-top:-3px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+
+.musicHead{
+  text-align: left;
+  padding-left: 150px;
+  color:rgb(77, 77, 77);
+  width: 100%;
+  font-size: 50px;
+  font-family: arial;
+
+}
+
+.allAlbums{
+  width: 600px;
+  display:flex;
+  flex-direction:column;
+}
+
+.vertCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.forDescript{
+
+padding: 30px;
+padding-left: 20%;
+width: 820px;
+  display:flex;
+  background-color: white;
+
+}
+
+.aboutPage{
+
+position: absolute;
+font-size: 25px;
+margin-left: 10%;
+margin-top: 10%;
+width: 75%;
+
+}
+
+.albumTitle{
+  font-size: 40px;
+  -webkit-text-stroke: 1px black;
+  color: white;
+  text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.release{
+  font-family: arial;
+  font-size: 18px;
+}
+
+.descript{
+  font-size: 25px;
+  padding-left: 50px;
+  width: 100%;
+}
+
+ul li{
+  padding-bottom: 6px;
+}
+
+.album{
+  height: 290px;
+width: 300px;
+}

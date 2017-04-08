@@ -1,0 +1,32 @@
+<div class = "musicHead">
+  <h1>MUSIC</h1>
+</div>
+
+<div class="allAlbums">
+<div class="forDescript" ng-repeat="stuff in album">
+
+<div class="vertCenter">
+
+<a ui-sref="album({title: stuff.title})">
+  <img ng-src ="{{stuff.cover}}" class="album">
+</a>
+
+</div>
+<div class = "descript">
+<ul>
+<li class="albumTitle">{{stuff.title}}</li>
+<li class="release">{{stuff.date}}</li>
+
+<ul ng-repeat="songs in stuff.tracks">
+<li>{{songs}}</li>
+</ul>
+
+</ul>
+</div>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>

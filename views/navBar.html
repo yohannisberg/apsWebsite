@@ -1,0 +1,24 @@
+<!-- <div class="dropdown dropbtn">
+<img click="myFunction()" class ="menuBar" src="./pictures/menuBars.png">
+<div id="myDropdown" class="dropdown-content">
+
+  <a href="#">ABOUT</a></br>
+  <a href="#">SHOWS</a></br>
+  <a href="#">MUSIC</a></br>
+
+</div>
+</div> -->
+
+<div class="overlay" ng-show="overlay" ng-click="showList = false;overlay = false;"></div>
+
+<div class="btn btn-info" ng-click="showDropdown()"><img class="menuBar" src="./pictures/menuBars.png"></div>
+
+  <div class="drop-down" ng-show="showList">
+    <ul>
+      <li><a ui-sref="about">ABOUT</a></li>
+      <li><a ui-sref="shows">SHOWS</a></li>
+      <li><a ui-sref="music">MUSIC</a></li>
+    </ul>
+  </div>
+</div>
+</div>
