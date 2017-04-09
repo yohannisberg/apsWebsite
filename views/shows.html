@@ -2,6 +2,18 @@
   <h1>SHOWS</h1>
 </div>
 
+
+<h3 class="showsTitle">Upcoming Shows</h3>
+
+<div class="whiteShowBackground">
+<div class="upcomingShows">NO UPCOMING SHOWS
+<span><img class="frowny" src="./pictures/frownFace.png"></span>
+</div>
+</div>
+
+<h3 class="showsTitle">Past Shows</h3>
+
+<div class="forFlex">
 <div ng-repeat="shows in forHtml">
 
 <div class="viewBackground">
@@ -10,4 +22,5 @@
 <span><a class="cityName" ui-sref="weather({zip: shows.zip})">{{shows.city}}</a></span>
 </div>
 
+</div>
 </div>

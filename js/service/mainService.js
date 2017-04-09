@@ -10,11 +10,113 @@ var firstLink = '<iframe style="border: 0; width: 350px; height: 786px;" src="ht
 
   this.apsShows=[
     {
-    date: "2017-03-27",
-    venue: "Cairo",
-    city: "Arlington Heights, IL",
-    zip: "60004"
-  }
+    date: "2017-02-25",
+    venue: "Real Time Sports Bar",
+    city: "Elk Grove Village, IL",
+    zip: "60007"
+  },
+    {
+    date: "2017-01-20",
+    venue: "Cairo's Ale House",
+    city: "West Chicago, IL",
+    zip: "60185"
+  },
+  {
+  date: "2016-12-31",
+  venue: "Lee Street Sports Bar & Games",
+  city: "Des Plaines, IL",
+  zip: "60016"
+  },
+  {
+  date: "2016-11-19",
+  venue: "Richie's Bar and Restaurant",
+  city: "Schiller Park, IL",
+  zip: "60176"
+  },
+  {
+  date: "2016-10-01",
+  venue: "Lee Street Sports Bar & Games",
+  city: "Des Plaines, IL",
+  zip: "60016"
+  },
+  {
+  date: "2016-08-13",
+  venue: "Lee Street Sports Bar & Games",
+  city: "Des Plaines, IL",
+  zip: "60016"
+},
+{
+date: "2016-07-22",
+venue: "The Harbor's Edge",
+city: "Waukegan, IL",
+zip: "60085"
+},
+{
+date: "2016-07-15",
+venue: "Moe's Tavern",
+city: "Chicago, IL",
+zip: "60618"
+},
+{
+date: "2016-06-25",
+venue: "The Harbor's Edge",
+city: "Waukegan, IL",
+zip: "60085"
+},
+{
+date: "2016-06-18",
+venue: "Jaxx Pub & Grill",
+city: "Glendale Heights, IL",
+zip: "60139"
+},
+{
+date: "2016-06-12",
+venue: "Chicago Loop Sports Bar & Grill",
+city: "Streamwood, IL",
+zip: "60107"
+},
+{
+date: "2016-05-25",
+venue: "Arcada Theatre",
+city: "St Charles, IL",
+zip: "60174"
+},
+{
+date: "2016-05-18",
+venue: "Lamplighters Tavern & Grill",
+city: "Palatine, IL",
+zip: "60067"
+},
+{
+date: "2016-04-21",
+venue: "Maple Ave Pub",
+city: "Lisle, IL",
+zip: "60532"
+},
+{
+date: "2016-04-01",
+venue: "Reilly's Roadhouse",
+city: "Romeoville, IL",
+zip: "60446"
+},
+{
+date: "2016-03-23",
+venue: "Juliana's Restaurant",
+city: "Chicago, IL",
+zip: "60659"
+},
+{
+date: "2016-03-03",
+venue: "Richie's Bar and Restaurant",
+city: "Schiller Park, IL",
+zip: "60176"
+},
+{
+date: "2016-02-18",
+venue: "Maple Ave Pub",
+city: "Lisle, IL",
+zip: "60532"
+}
 ]
 
   this.apsAlbums=[
