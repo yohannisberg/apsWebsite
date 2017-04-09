@@ -3,7 +3,7 @@ angular.module('apsApp').controller('albumCtrl', function($scope, mainService, $
 var albums=mainService.apsAlbums;
 
 for (var i = 0; i < albums.length; i++) {
-  if ( albums[i].title === parseInt($stateParams.title) ) {
+  if ( albums[i].title === $stateParams.title ) {
     $scope.singleAlbum = albums[i];
   }
 }

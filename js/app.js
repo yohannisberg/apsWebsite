@@ -9,14 +9,19 @@ angular.module('apsApp', ['ui.router'])
 
             .state('about', {
               url: '/about',
-              templateUrl: './views/about.html',
-              controller: 'aboutCtrl'
+              templateUrl: './views/about.html'
             })
 
             .state('shows', {
               url: '/shows',
               templateUrl: './views/shows.html',
               controller: 'showsCtrl'
+            })
+
+            .state('weather', {
+              url: '/shows/:zip',
+              templateUrl: './views/weather.html',
+              controller: 'weatherCtrl'
             })
 
             .state('music', {
@@ -27,7 +32,7 @@ angular.module('apsApp', ['ui.router'])
 
             .state('album', {
               url: '/music/:title',
-              templateUrl: '.views/album.html',
+              templateUrl: './views/album.html',
               controller: 'albumCtrl'
             });
 
