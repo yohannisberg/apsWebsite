@@ -3,6 +3,13 @@
   src: url(built-titling-rg.ttf);
 }
 
+a:hover{
+/*background-image: url("../pictures/vid.mp4");*/
+/*border-radius: 25px;*/
+color:gray;
+opacity: .7;
+}
+
 @media screen and (max-width: 425px) {
   .bandName{
     position:absolute;
